@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #001f5b;
+    color: white;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba (0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h2 {
+    color: #ffd700;
+}
+
+.Services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-category {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h3 {
+    background-color: #ffd700;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-radius: 5px 5px 0 0;
+}
+
+li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #001f5b;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.email {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffd700;
+}
